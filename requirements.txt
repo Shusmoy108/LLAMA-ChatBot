@@ -1,0 +1,7 @@
+langchain
+wget
+llama-index
+llama-index-llms-llama-cpp
+cohere
+llama-cpp-python
+streamlit
