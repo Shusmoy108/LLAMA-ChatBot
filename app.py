@@ -3,8 +3,8 @@ from llama_index.llms.llama_cpp import LlamaCPP
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
 
 def init_page() -> None:
-    st.set_page_config(page_title="Personal Chatbot", layout="wide")
-    st.title("🧠 Your Chatbot")
+    st.set_page_config(page_title="LLAMA Chatbot", layout="wide")
+    st.title("🧠 LLAMA Chatbot")
     st.sidebar.title("Options")
 
 def select_llm() -> LlamaCPP:
